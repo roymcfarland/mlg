@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <!-- Start <head> -->
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>McFarland Law Group</title>
+    <!-- ANGULAR ROUTING -->
+    <base href="/">
+    <!-- CSS --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/js/bower_components/angular-motion/dist/angular-motion.min.css">
+    <link rel="stylesheet" href="/js/bower_components/bootstrap-additions/dist/bootstrap-additions.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- ANGULAR JS (inserted in <head> for ngCloak optimization) -->
+    <script src="/js/bower_components/angular/angular.min.js"></script>
+    <script src="/js/bower_components/angular-route/angular-route.min.js"></script>
+  </head>
+    
+  <!-- End </head> Start <body> --> 
+        
+  <div class="ng-cloak" ng-cloak ng-app="mcfarlandLawGroup">
+  <body class="container"> 
+    <!-- Start <header> -->
+    <header>
+
+    </header>
+    <!-- End </header> Start <main> -->
+    <main>
+      <!-- Where angular templating is injected via /js/app.router.js -->
+      <div ng-view></div>
+    </main>
+    <!-- End </main> -->
+  </body> 
+  
+  <!-- End </body> Start <footer> -->
+  
+  <footer>
+
+    <!-- JS -->
+    <script src="/js/bower_components/underscore/underscore-min.js"></script>
+    <!-- App files -->
+    <script src="/js/app.js"></script>
+    <script src="/js/appRouter.js"></script>
+    <script src="/js/bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="/js/bower_components/angular-strap/dist/angular-strap.min.js"></script>
+    <script src="/js/bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
+    <script src="/js/bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="/js/bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="/js/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="/js/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <!-- Controllers -->
+    <script src="/js/controllers/homeCtrl.js"></script>
+    <script src="/js/controllers/loginCtrl.js"></script>
+    <!-- Services -->
+  
+  </footer> 
+  
+  <!-- End </footer> -->
+
+  </div> <!-- End ng-app="mcfarlandLawGroup" -->
+  
+</html>
